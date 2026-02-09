@@ -8,10 +8,10 @@ import json
 from concurrent.futures import ThreadPoolExecutor
 
 # ---------------- CONFIGURATION ---------------- #
-BOT_TOKEN = "7693933169:AAHiN8fkg_0pILqatCvWSKOD-NZIu_i0qpI" 
+BOT_TOKEN = "8577308339:AAHz19s_PevqgcKJmWsQZzZsmGg9-EiT2o" 
 bot = telebot.TeleBot(BOT_TOKEN, parse_mode='HTML')
 
-ADMIN_IDS = [8297726219]  
+ADMIN_IDS = [7146242501]  
 
 # Thread Pool limits simultaneous threads to prevent "can't start new thread" error
 executor = ThreadPoolExecutor(max_workers=50)
